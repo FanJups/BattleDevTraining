@@ -1,7 +1,7 @@
 # BattleDevTraining
 I'm training for the battle dev 2019 https://battledev.blogdumoderateur.com/  &amp; https://www.isograd.com/FR/solutionconcours.php
 
-## Exercise " Vente aux enchères " Battle dev nov 2018
+## Researches linked to Exercise " Vente aux enchères " Battle dev nov 2018
 
 ### split java
 
