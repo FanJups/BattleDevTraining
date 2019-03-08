@@ -40,3 +40,11 @@ https://www.google.com/search?ei=_OWBXNvrNLGOlwTQu7ToDQ&q=how+to+save+2+elements
 https://stackoverflow.com/questions/4956844/hashmap-with-multiple-values-under-the-same-key
 
 https://stackoverflow.com/questions/3725703/how-to-store-more-than-one-string-in-a-map
+
+## error: non-static variable this cannot be referenced from a static context
+
+https://www.google.com/search?q=error%3A+non-static+variable+this+cannot+be+referenced+from+a+static+context&oq=error%3A+non-static+variable+this+cannot+be+referenced+from+a+static+context&aqs=chrome..69i57j69i58.1357j0j7&sourceid=chrome&ie=UTF-8
+
+https://www.developpez.net/forums/d1176694/java/general-java/debuter/non-static-variable-cannot-be-referenced-from-static-context/
+
+
