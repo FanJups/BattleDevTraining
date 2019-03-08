@@ -106,5 +106,15 @@ https://www.google.com/search?ei=HX2CXJbANaOvgweE-rzYDA&q=how+to+know+if+a+lette
 https://docs.oracle.com/javase/tutorial/i18n/text/charintro.html
 
 
+https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html
+
+
+### Character.isLetter('é') java
+
+https://www.google.com/search?q=Character.isLetter(%27%C3%A9%27)+java&oq=Character.isLetter(%27%C3%A9%27)+java&aqs=chrome..69i57.15754j0j7&sourceid=chrome&ie=UTF-8
+
+https://openclassrooms.com/forum/sujet/character-isletter-if-character-isletter
+
+
 
 
