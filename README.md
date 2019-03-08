@@ -115,6 +115,18 @@ https://www.google.com/search?q=Character.isLetter(%27%C3%A9%27)+java&oq=Charact
 
 https://openclassrooms.com/forum/sujet/character-isletter-if-character-isletter
 
+### delete duplicate values arraylist string java
+
+https://www.google.com/search?q=delete+duplicate+values+arraylist+string+java&oq=delete+duplicate+values+arraylist+string+java&aqs=chrome..69i57.21419j1j7&sourceid=chrome&ie=UTF-8
+
+https://www.geeksforgeeks.org/how-to-remove-duplicates-from-arraylist-in-java/
+
+### how to convert char to String java
+
+https://www.google.com/search?q=how+to+convert+char+to+String+java&oq=how+to+convert+char+to+String+java&aqs=chrome..69i57j0l5.11394j1j7&sourceid=chrome&ie=UTF-8
+
+https://www.javatpoint.com/java-char-to-string
+
 
 
 
