@@ -3,6 +3,9 @@
  * Use: System.out.println to ouput your result to STDOUT.
  * Use: System.err.println to ouput debugging information to STDERR.
  * ***/
+
+//OK
+
 package com.isograd.exercise;
 import java.util.*;
 
@@ -105,6 +108,8 @@ public static void main( String[] argv ) throws Exception {
 	    
 	    return test;
 	}
+
+	// Je n'ai pas utilisé cette fonction mais je conserve car c'est une inspiration
 
 	// Function to remove duplicates from an ArrayList 
     public  <T> ArrayList<T> removeDuplicates(ArrayList<T> list) 
