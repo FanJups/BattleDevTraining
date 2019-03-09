@@ -141,6 +141,12 @@ https://www.google.com/search?q=convert+int+to+double+java&oq=convert+int+to+dou
 
 https://www.javatpoint.com/java-int-to-double
 
+### interpolation linéaire
+
+https://www.google.com/search?q=interpolation+lin%C3%A9aire&oq=interpolation+&aqs=chrome.1.69i57j0l5.7648j1j7&sourceid=chrome&ie=UTF-8
+
+https://fr.wikipedia.org/wiki/Interpolation_lin%C3%A9aire
+
 
 
 
