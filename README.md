@@ -1,7 +1,7 @@
 # BattleDevTraining
 I'm training for the battle dev 2019 https://battledev.blogdumoderateur.com/  &amp; https://www.isograd.com/FR/solutionconcours.php
 
-## Researches linked to Exercise " Vente aux enchères " Battle dev nov 2018
+## 1- Researches linked to Exercise " Vente aux enchères " Battle dev nov 2018
 
 ### split java
 
@@ -49,7 +49,7 @@ https://www.google.com/search?q=error%3A+non-static+variable+this+cannot+be+refe
 
 https://www.developpez.net/forums/d1176694/java/general-java/debuter/non-static-variable-cannot-be-referenced-from-static-context/
 
-## Researches linked to Exercise " Mots magiques " Battle dev nov 2018
+## 2- Researches linked to Exercise " Mots magiques " Battle dev nov 2018
 
 ### arraylist java
 
@@ -127,7 +127,7 @@ https://www.google.com/search?q=how+to+convert+char+to+String+java&oq=how+to+con
 
 https://www.javatpoint.com/java-char-to-string
 
-## Researches linked to Exercise " fonction mystérieuse " Battle dev nov 2018
+## 3- Researches linked to Exercise " fonction mystérieuse " Battle dev nov 2018
 
 ### how to convert string to double java
 
