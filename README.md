@@ -147,6 +147,8 @@ https://www.google.com/search?q=interpolation+lin%C3%A9aire&oq=interpolation+&aq
 
 https://fr.wikipedia.org/wiki/Interpolation_lin%C3%A9aire
 
+## 4- Researches linked to Exercise " professeur populaire " Battle dev nov 2018
+
 
 
 
