@@ -127,6 +127,20 @@ https://www.google.com/search?q=how+to+convert+char+to+String+java&oq=how+to+con
 
 https://www.javatpoint.com/java-char-to-string
 
+## Researches linked to Exercise " fonction mystérieuse " Battle dev nov 2018
+
+### how to convert string to double java
+
+https://www.google.com/search?q=how+to+convert+string+to+double+java&oq=how+to+convert+string+to+double+java&aqs=chrome..69i57j0l5.11224j1j7&sourceid=chrome&ie=UTF-8
+
+http://www.java67.com/2015/06/how-to-convert-string-to-double-java-example.html
+
+### convert int to double java
+
+https://www.google.com/search?q=convert+int+to+double+java&oq=convert+int+to+double+java&aqs=chrome..69i57j0l5.7840j1j7&sourceid=chrome&ie=UTF-8
+
+https://www.javatpoint.com/java-int-to-double
+
 
 
 
