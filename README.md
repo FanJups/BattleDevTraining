@@ -149,6 +149,42 @@ https://fr.wikipedia.org/wiki/Interpolation_lin%C3%A9aire
 
 ## 4- Researches linked to Exercise " professeur populaire " Battle dev nov 2018
 
+### exhaustive enumeration algorithm
+
+https://www.google.com/search?ei=id6DXJntBK-tgwfN45OADg&q=exhaustive+enumeration+algorithm&oq=%C3%A9num%C3%A9ration+exhaustive+a&gs_l=psy-ab.1.0.0i22i30.11275.12147..15486...0.0..0.91.169.2......0....1..gws-wiz.......0i71.qZoZRjpa-RY
+
+http://evolution.gs.washington.edu/sisg/2014/2014_SISG_12_2.pdf
+
+https://archerimagine.wordpress.com/tag/exhaustive-enumeration/
+
+https://stackoverflow.com/questions/11703827/brute-force-algorithm-for-the-traveling-salesman-problem-in-java
+
+### brute force algorithm java
+
+https://www.google.com/search?q=brute+force+algorithm+java&oq=brute+force+algorith&aqs=chrome.4.69i57j69i60j0l4.20822j1j7&sourceid=chrome&ie=UTF-8
+
+https://algs4.cs.princeton.edu/53substring/Brute.java.html
+
+https://stackoverflow.com/questions/14094864/explain-brute-force-algorithm
+
+https://dzone.com/articles/algorithm-week-brute-force
+
+### the minimum of Arraylist java
+
+https://www.google.com/search?q=the+minimum+of+Arraylist+java&oq=the+minimum+of+Arraylist+java&aqs=chrome..69i57j0.16828j1j7&sourceid=chrome&ie=UTF-8
+
+https://stackoverflow.com/questions/15995458/how-to-find-the-minimum-value-in-an-arraylist-along-with-the-index-number-jav
+
+### famous teacher java force brute
+
+https://www.google.com/search?q=famous+teacher+java+force+brute&oq=famous+teacher+java+force+brute&aqs=chrome..69i57.23543j1j7&sourceid=chrome&ie=UTF-8
+
+https://www.reddit.com/r/learnprogramming/comments/l6gos/javahomework_brute_force_efficiency/
+
+http://enos.itcollege.ee/~jpoial/algorithms/GT/Data%20Structures%20and%20Algorithms%20in%20Java%20Fourth%20Edition.pdf
+
+https://www.developpez.net/forums/d589629/general-developpement/algorithme-mathematiques/algorithmes-structures-donnees/algorithme-bruteforce/
+
 
 
 
