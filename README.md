@@ -185,6 +185,46 @@ http://enos.itcollege.ee/~jpoial/algorithms/GT/Data%20Structures%20and%20Algorit
 
 https://www.developpez.net/forums/d589629/general-developpement/algorithme-mathematiques/algorithmes-structures-donnees/algorithme-bruteforce/
 
+### contains arraylist java
+
+https://www.google.com/search?q=contains+arraylist+java&oq=contains+arraylist+java&aqs=chrome..69i57j0l5.18064j1j7&sourceid=chrome&ie=UTF-8
+
+https://www.geeksforgeeks.org/arraylist-contains-java/
+
+### how to check if 2 objects are equal in java
+
+https://www.google.com/search?q=how+to+check+if+2+objects+are+equal+in+java&oq=how+to+know+if+2+objects&aqs=chrome.1.69i57j0l4.24394j1j7&sourceid=chrome&ie=UTF-8
+
+https://www.javaworld.com/article/3305792/java-challengers-4-comparing-java-objects-with-equals-and-hashcode.html
+
+### list and set in java
+
+https://www.google.com/search?q=list+and+set+in+java&oq=list+and+set&aqs=chrome.1.0l6.5794j1j7&sourceid=chrome&ie=UTF-8
+
+http://net-informations.com/java/cjava/list.htm
+
+### get element set java
+
+https://www.google.com/search?q=get+element+set+java&oq=get+element+ser&aqs=chrome.1.69i57j0l5.7782j1j7&sourceid=chrome&ie=UTF-8
+
+https://stackoverflow.com/questions/7283338/getting-an-element-from-a-set
+
+https://stackoverflow.com/questions/20511140/how-to-get-first-item-from-a-java-util-set/20511262
+
+http://tutorials.jenkov.com/java-collections/set.html
+
+### import stream java
+
+https://www.google.com/search?q=import+stream+java&oq=import+stream&aqs=chrome.1.69i57j0l5.17566j1j7&sourceid=chrome&ie=UTF-8
+
+https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html
+
+### set size java
+
+https://www.google.com/search?q=set+size+java&oq=set+size+&aqs=chrome.1.69i57j0l5.3733j1j7&sourceid=chrome&ie=UTF-8
+
+
+
 
 
 
