@@ -249,6 +249,10 @@ https://www.google.com/search?ei=xkqGXNLwCYT-aryih-AO&q=putAll+hashmap+in+java&o
 
 https://www.geeksforgeeks.org/hashmap-putall-method-in-java/
 
+### LinkedHashMap
+
+http://imss-www.upmf-grenoble.fr/prevert/Prog/Java/Conteneurs/LinkedHashMap.html
+
 
 
 
