@@ -231,6 +231,26 @@ https://www.geeksforgeeks.org/linkedhashmap-containskey-method-in-java/
 
 https://stackoverflow.com/questions/14165830/linkedhashmap-containskey-or-containsvalue
 
+### LinkedHashMap sort in ascending order integer values
+
+https://www.google.com/search?q=LinkedHashMap+sort+in+ascending+order+integer+values&oq=LinkedHashMap+sort+in+ascending+order+integer+values&aqs=chrome..69i57.19054j0j7&sourceid=chrome&ie=UTF-8
+
+https://stackoverflow.com/questions/43777478/how-to-get-value-in-ascending-order-from-linkedhashmap
+
+### clear hashmap in java
+
+https://www.google.com/search?q=clear+hashmap+in+java&oq=clear+hashmp&aqs=chrome.2.69i57j0l5.6295j1j7&sourceid=chrome&ie=UTF-8
+
+https://www.geeksforgeeks.org/hashmap-clear-method-in-java/
+
+### putAll hashmap in java
+
+https://www.google.com/search?ei=xkqGXNLwCYT-aryih-AO&q=putAll+hashmap+in+java&oq=putAll+hashmap+in+java&gs_l=psy-ab.3..0i5i30j0i8i30l2.13083.14933..15756...0.0..0.114.566.3j3......0....1..gws-wiz.......0i71j35i304i39j0i8i7i30j0i8i13i30.IqcM5N8XCXg
+
+https://www.geeksforgeeks.org/hashmap-putall-method-in-java/
+
+
+
 
 
 
