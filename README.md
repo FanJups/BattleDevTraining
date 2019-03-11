@@ -271,6 +271,14 @@ https://www.google.com/search?ei=A3KGXPSCJKKNlwTkrZzYAQ&q=hashset+get+java&oq=ha
 
 https://www.callicoder.com/java-hashset/
 
+### generate unique id java
+
+https://www.google.com/search?q=generate+unique+id+java&oq=generate+unique+id+java&aqs=chrome..69i57j0l5.12840j1j7&sourceid=chrome&ie=UTF-8
+
+https://stackoverflow.com/questions/1389736/how-do-i-create-a-unique-id-in-java
+
+https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html
+
 
 
 
