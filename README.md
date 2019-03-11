@@ -223,6 +223,16 @@ https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html
 
 https://www.google.com/search?q=set+size+java&oq=set+size+&aqs=chrome.1.69i57j0l5.3733j1j7&sourceid=chrome&ie=UTF-8
 
+### java linkedhashmap containskey
+
+https://www.google.com/search?q=java+linkedhashmap+containskey&oq=linkedhashmap+java+cont&aqs=chrome.1.69i57j0l5.12147j1j7&sourceid=chrome&ie=UTF-8
+
+https://www.geeksforgeeks.org/linkedhashmap-containskey-method-in-java/
+
+https://stackoverflow.com/questions/14165830/linkedhashmap-containskey-or-containsvalue
+
+
+
 
 
 
