@@ -265,6 +265,12 @@ https://www.google.com/search?q=Do+I+modify+an+object+if+I+changed+the+cloned+ob
 
 https://stackoverflow.com/questions/28038163/any-changes-on-the-cloned-object-will-it-reflect-the-original-object-in-java
 
+### hashset get java
+
+https://www.google.com/search?ei=A3KGXPSCJKKNlwTkrZzYAQ&q=hashset+get+java&oq=hashset+get+java&gs_l=psy-ab.3..0j0i22i30l9.894.11510..11857...1.0..3.149.2980.22j10......0....1..gws-wiz.....6..35i304i39j35i39j0i131j0i67j0i20i263j0i203.iKnUYdtzB8M
+
+https://www.callicoder.com/java-hashset/
+
 
 
 
