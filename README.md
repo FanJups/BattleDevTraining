@@ -253,6 +253,18 @@ https://www.geeksforgeeks.org/hashmap-putall-method-in-java/
 
 http://imss-www.upmf-grenoble.fr/prevert/Prog/Java/Conteneurs/LinkedHashMap.html
 
+### clone object java
+
+https://www.google.com/search?q=clone+object+java&oq=clone+object+java&aqs=chrome..69i57j0l5.10572j1j7&sourceid=chrome&ie=UTF-8
+
+https://en.wikipedia.org/wiki/Clone_(Java_method)
+
+### Do I modify an object if I changed the cloned object ? java
+
+https://www.google.com/search?q=Do+I+modify+an+object+if+I+changed+the+cloned+object+%3F+java&oq=Do+I+modify+an+object+if+I+changed+the+cloned+object+%3F+java&aqs=chrome..69i57.41829j1j7&sourceid=chrome&ie=UTF-8
+
+https://stackoverflow.com/questions/28038163/any-changes-on-the-cloned-object-will-it-reflect-the-original-object-in-java
+
 
 
 
