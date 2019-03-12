@@ -279,6 +279,14 @@ https://stackoverflow.com/questions/1389736/how-do-i-create-a-unique-id-in-java
 
 https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html
 
+## 5- Researches linked to Exercise " Professeur débordé " Battle dev nov 2018
+
+### temps polynomial
+
+https://www.google.com/search?q=temps+polynomial&oq=temps+pol&aqs=chrome.1.69i57j0l5.5967j1j7&sourceid=chrome&ie=UTF-8
+
+https://fr.wikipedia.org/wiki/Temps_de_calcul_pseudo-polynomial
+
 
 
 
