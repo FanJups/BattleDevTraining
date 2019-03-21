@@ -35,9 +35,11 @@ public static void main( String[] argv ) throws Exception {
 		Predicate<EnchereEncherisseur> enchereCorrect = e -> e.getEnchere() > prixBase ;
 		try {
 
-			//System.out.println(list.stream().filter(enchereCorrect).findFirst().get().getEncherisseur());
+			// also good, parallel is just to get the result quickly
 
-			System.out.println(list.stream().filter(enchereCorrect).max(Comparator.comparing(EnchereEncherisseur::getEnchere)).get().getEncherisseur());
+			//System.out.println(list.stream().filter(enchereCorrect).max(Comparator.comparing(EnchereEncherisseur::getEnchere)).get().getEncherisseur());
+
+			System.out.println(list.stream().parallel().filter(enchereCorrect).max(Comparator.comparing(EnchereEncherisseur::getEnchere)).get().getEncherisseur());
 
 		} catch (NoSuchElementException e) {
 
