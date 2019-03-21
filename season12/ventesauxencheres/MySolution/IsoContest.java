@@ -4,7 +4,7 @@
  * Use: System.err.println to ouput debugging information to STDERR.
  * ***/
 
-// NOT OK
+//  OK
 package com.isograd.exercise;
 import java.util.*;
 import java.util.Map;
