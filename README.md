@@ -287,6 +287,27 @@ https://www.google.com/search?q=temps+polynomial&oq=temps+pol&aqs=chrome.1.69i57
 
 https://fr.wikipedia.org/wiki/Temps_de_calcul_pseudo-polynomial
 
+## 6- Researches linked to Exercise " fonction mystérieuse bis " Battle dev nov 2018
+
+### fonction itérée
+
+https://www.google.com/search?hl=fr&authuser=0&ei=YH2VXJ3ZPJCtUoT8rtgO&q=fonction+it%C3%A9r%C3%A9e+&oq=fonction+it%C3%A9r%C3%A9e+&gs_l=psy-ab.3..0i22i30.87190.90690..91571...0.0..0.119.720.7j1......0....1..gws-wiz.......0i71j35i39j0.M6sCISBk5Ww
+
+https://fr.wikipedia.org/wiki/Fonction_it%C3%A9r%C3%A9e
+
+
+### fonction itérée java
+
+https://www.google.com/search?hl=fr&authuser=0&ei=yX2VXPPrKYywgwfeibHQAw&q=fonction+it%C3%A9r%C3%A9e+java&oq=fonction+it%C3%A9r%C3%A9e+java&gs_l=psy-ab.3...539188.540063..540818...0.0..0.0.0.......0....1..gws-wiz.EDfECDtZMb0
+
+### image d'un intervalle par une fonction itérée java
+
+https://www.google.com/search?hl=fr&authuser=0&ei=coGVXMztBK6ygwfc5o7gAQ&q=image+d%27un+intervalle+par+une+fonction+it%C3%A9r%C3%A9e+java&oq=image+d%27un+intervalle+par+une+fonction+it%C3%A9r%C3%A9e+java&gs_l=psy-ab.3...299488.316735..318166...0.0..1.1363.7709.9j9j2j6-1j4......0....1..gws-wiz.......0i71.3so63YEv6y0
+
+
+
+
+
 
 
 
