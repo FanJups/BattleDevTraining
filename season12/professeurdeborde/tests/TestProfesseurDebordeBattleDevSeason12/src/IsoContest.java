@@ -4,30 +4,37 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.UUID;
+import java.util.stream.Collectors;
 
 public class IsoContest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String fichier = "/input5.txt";
+		String fichier = "/input2.txt";
 		int N = 0;
 		ArrayList<Etudiant> listeEtudiants = new ArrayList<Etudiant>();
 		ArrayList<Integer> listeSizes = new ArrayList<Integer>();
 
 		for (int i = 0; i < IsoContest.recupFichier(fichier).size(); i++) {
 			String line = IsoContest.recupFichier(fichier).get(i);
+			// System.err.println(line);
 
 			if (i == 0)
 				N = Integer.parseInt(line);
 			else {
 
+				System.err.println(Arrays.asList(line.split(" ")));
+
 				int creneau1 = Integer.parseInt(line.split(" ")[0]);
 				int creneau2 = Integer.parseInt(line.split(" ")[1]);
+
 				String identifiant = UUID.randomUUID().toString();
 				Etudiant elt = new Etudiant(creneau1, creneau2, identifiant);
 				listeEtudiants.add(elt);
@@ -294,9 +301,15 @@ public class IsoContest {
 					// Object maxEntry = Collections.max(sortedEncheresMap.entrySet(),
 					// Map.Entry.comparingByValue()).getKey();
 
-					int min = Collections.min(list.entrySet(), Map.Entry.comparingByValue()).getValue();
+					// int min = Collections.min(list.entrySet(),
+					// Map.Entry.comparingByValue()).getValue();
 
-					int max = Collections.max(list.entrySet(), Map.Entry.comparingByValue()).getValue();
+					int min = list.values().stream().parallel().min(Integer::compare).get();
+
+					// int max = Collections.max(list.entrySet(),
+					// Map.Entry.comparingByValue()).getValue();
+
+					int max = list.values().stream().parallel().max(Integer::compare).get();
 
 					if (creneau < min) {
 						if (Etudiant.siCreneauxCompatibles(min, creneau) == true) {
@@ -314,21 +327,27 @@ public class IsoContest {
 					}
 
 					if (!(creneau < min || creneau > max)) {
-						ArrayList<Integer> smallerThan = new ArrayList<Integer>();
+						List<Integer> smallerThan = new ArrayList<Integer>();
 
-						ArrayList<Integer> biggerThan = new ArrayList<Integer>();
+						List<Integer> biggerThan = new ArrayList<Integer>();
 
-						for (Map.Entry<Etudiant, Integer> entry : list.entrySet()) {
+						/*
+						 * for (Map.Entry<Etudiant, Integer> entry : list.entrySet()) {
+						 * 
+						 * 
+						 * 
+						 * if(creneau > entry.getValue()) { smallerThan.add(entry.getValue()); }
+						 * 
+						 * if(creneau < entry.getValue()) { biggerThan.add(entry.getValue()); }
+						 * 
+						 * }
+						 */
 
-							if (creneau > entry.getValue()) {
-								smallerThan.add(entry.getValue());
-							}
+						smallerThan = list.values().stream().parallel().filter(value -> value < creneau)
+								.collect(Collectors.toList());
 
-							if (creneau < entry.getValue()) {
-								biggerThan.add(entry.getValue());
-							}
-
-						}
+						biggerThan = list.values().stream().parallel().filter(value -> value > creneau)
+								.collect(Collectors.toList());
 
 						if (Etudiant.siCreneauxCompatibles(Collections.max(smallerThan), creneau) == true
 								&& Etudiant.siCreneauxCompatibles(Collections.min(biggerThan), creneau) == true) {
@@ -364,7 +383,7 @@ public class IsoContest {
 				try {
 					fis = new FileInputStream(f);
 
-					byte[] buf = new byte[1024];
+					byte[] buf = new byte[2048];
 
 					int count = 0;
 
@@ -377,6 +396,9 @@ public class IsoContest {
 
 							if (buf[i] != '\n') {
 								ligne = ligne + (char) buf[i];
+
+								if (i == n - 1) // enregistrement dernière ligne
+									lignes.add(ligne);
 							}
 
 							if (buf[i] == '\n') {
@@ -421,5 +443,4 @@ public class IsoContest {
 		return lignes;
 
 	}
-
 }
