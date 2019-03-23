@@ -7,7 +7,14 @@
 //OK
 package com.isograd.exercise;
 import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.UUID;
+import java.util.stream.Collectors;
 
 public class IsoContest {
 public static void main( String[] argv ) throws Exception {
@@ -154,6 +161,7 @@ public static void main( String[] argv ) throws Exception {
 
 		public void traitementListeCreneaux(Etudiant autreEtudiant)
 		{
+			
 			// Creneau 1 de cet étudiant this
 
 			
@@ -255,9 +263,15 @@ public static void main( String[] argv ) throws Exception {
 
 						//Object maxEntry = Collections.max(sortedEncheresMap.entrySet(), Map.Entry.comparingByValue()).getKey(); 
 
-						int min = Collections.min(list.entrySet(), Map.Entry.comparingByValue()).getValue(); 
+						// int min = Collections.min(list.entrySet(),
+					// Map.Entry.comparingByValue()).getValue();
 
-						int max = Collections.max(list.entrySet(), Map.Entry.comparingByValue()).getValue();
+					int min = list.values().stream().parallel().min(Integer::compare).get();
+
+					// int max = Collections.max(list.entrySet(),
+					// Map.Entry.comparingByValue()).getValue();
+
+					int max = list.values().stream().parallel().max(Integer::compare).get();
 
 						if(creneau < min)
 						{
@@ -280,9 +294,11 @@ public static void main( String[] argv ) throws Exception {
 
 						if( ! ( creneau < min || creneau > max  ) )
 						{
-							ArrayList<Integer> smallerThan = new ArrayList<Integer>();
+							List<Integer> smallerThan = new ArrayList<Integer>();
 
-							ArrayList<Integer> biggerThan = new ArrayList<Integer>();
+							List<Integer> biggerThan = new ArrayList<Integer>();
+
+														/*
 
 							for (Map.Entry<Etudiant, Integer> entry : list.entrySet()) {
 
@@ -295,10 +311,18 @@ public static void main( String[] argv ) throws Exception {
 
     							if(creneau < entry.getValue())
     							{
-    								biggerThan.add(entry.getValue());
+    								biggerThan.add(entry.getValue()); 
     							}
 
 							}
+
+							*/
+
+							smallerThan = list.values().stream().parallel().filter(value -> value < creneau)
+								.collect(Collectors.toList());
+
+							biggerThan = list.values().stream().parallel().filter(value -> value > creneau)
+								.collect(Collectors.toList());
 
 							
 
