@@ -287,6 +287,12 @@ https://www.google.com/search?q=temps+polynomial&oq=temps+pol&aqs=chrome.1.69i57
 
 https://fr.wikipedia.org/wiki/Temps_de_calcul_pseudo-polynomial
 
+### minimum of a list integer java 8
+
+https://www.google.com/search?q=minimum+of+a+list+integer+java+8&oq=minimum+of+a+list+integer+java+8&aqs=chrome..69i57.17553j0j7&sourceid=chrome&ie=UTF-8
+
+https://stackoverflow.com/questions/22561614/java-8-streams-min-and-max-why-does-this-compile
+
 ## 6- Researches linked to Exercise " fonction mystérieuse bis " Battle dev nov 2018
 
 ### fonction itérée
