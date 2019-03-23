@@ -304,6 +304,18 @@ https://www.google.com/search?hl=fr&authuser=0&ei=yX2VXPPrKYywgwfeibHQAw&q=fonct
 
 https://www.google.com/search?hl=fr&authuser=0&ei=coGVXMztBK6ygwfc5o7gAQ&q=image+d%27un+intervalle+par+une+fonction+it%C3%A9r%C3%A9e+java&oq=image+d%27un+intervalle+par+une+fonction+it%C3%A9r%C3%A9e+java&gs_l=psy-ab.3...299488.316735..318166...0.0..1.1363.7709.9j9j2j6-1j4......0....1..gws-wiz.......0i71.3so63YEv6y0
 
+### math.max java
+
+https://www.google.com/search?q=math.max+java&oq=Math.max&aqs=chrome.1.69i57j0l5.23027j0j7&sourceid=chrome&ie=UTF-8
+
+https://www.geeksforgeeks.org/java-math-max-method-examples/
+
+### 3 last digits of a number java
+
+https://www.google.com/search?q=3+last+digits+of+a+number+java&oq=3+last+digits+of+a+number+java+&aqs=chrome..69i57j0l2.24187j0j7&sourceid=chrome&ie=UTF-8
+
+https://www.geeksforgeeks.org/find-first-last-digits-number/
+
 
 
 
