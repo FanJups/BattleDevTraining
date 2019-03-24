@@ -51,9 +51,9 @@ public static void main( String[] argv ) throws Exception {
 		for(int j=0; j<listeEtudiants.size();j++)
 		{
 
-			Etudiant.sortingAscendingOrder( listeEtudiants.get(j).getListeEtudiantsCompatiblesCreneau1() );
+			//Etudiant.sortingAscendingOrder( listeEtudiants.get(j).getListeEtudiantsCompatiblesCreneau1() );
 			listeSizes.add( listeEtudiants.get(j).getListeEtudiantsCompatiblesCreneau1().size() );
-			Etudiant.sortingAscendingOrder(  listeEtudiants.get(j).getListeEtudiantsCompatiblesCreneau2() );
+			//Etudiant.sortingAscendingOrder(  listeEtudiants.get(j).getListeEtudiantsCompatiblesCreneau2() );
 			listeSizes.add( listeEtudiants.get(j).getListeEtudiantsCompatiblesCreneau2().size() );
 		}
 
