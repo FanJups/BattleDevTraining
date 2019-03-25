@@ -293,6 +293,10 @@ https://www.google.com/search?q=minimum+of+a+list+integer+java+8&oq=minimum+of+a
 
 https://stackoverflow.com/questions/22561614/java-8-streams-min-and-max-why-does-this-compile
 
+### linkedhashmap hashmap treemap
+
+https://stackoverflow.com/questions/2889777/difference-between-hashmap-linkedhashmap-and-treemap
+
 ## 6- Researches linked to Exercise " fonction mystérieuse bis " Battle dev nov 2018
 
 ### fonction itérée
