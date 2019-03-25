@@ -21,8 +21,9 @@ public static void main( String[] argv ) throws Exception {
 		String  line;
 		Scanner sc = new Scanner(System.in);
 		int N = Integer.parseInt(sc.nextLine());
-		ArrayList<Etudiant> listeEtudiants = new ArrayList<Etudiant>();
-		ArrayList<Integer> listeSizes = new ArrayList<Integer>();
+		List<Etudiant> listeEtudiants = new ArrayList<Etudiant>();
+		
+		Set<Integer> listeSizes = new HashSet<Integer>();
 		
 		while(sc.hasNextLine()) {
 		    
@@ -35,27 +36,22 @@ public static void main( String[] argv ) throws Exception {
 			
 		}
 
-		for(int j=0; j<listeEtudiants.size();j++)
-		{
-			int actuel = j;
 
-			for(int k=0;k<listeEtudiants.size();k++)
-			{
-				if(k != actuel)
-				{
-					listeEtudiants.get(actuel).traitementListeCreneaux( listeEtudiants.get(k) );
-				}
-			}
-		}
+		listeEtudiants.stream().parallel().forEach(et1 -> {
 
-		for(int j=0; j<listeEtudiants.size();j++)
-		{
+			listeEtudiants.stream().parallel().forEach(et2 -> {
 
-			//Etudiant.sortingAscendingOrder( listeEtudiants.get(j).getListeEtudiantsCompatiblesCreneau1() );
-			listeSizes.add( listeEtudiants.get(j).getListeEtudiantsCompatiblesCreneau1().size() );
-			//Etudiant.sortingAscendingOrder(  listeEtudiants.get(j).getListeEtudiantsCompatiblesCreneau2() );
-			listeSizes.add( listeEtudiants.get(j).getListeEtudiantsCompatiblesCreneau2().size() );
-		}
+				if (!et1.equals(et2))
+					et1.traitementListeCreneaux(et2);
+			});
+		});
+
+		listeEtudiants.stream().parallel().forEach(etudiant -> {
+
+			listeSizes.add(etudiant.getListeEtudiantsCompatiblesCreneau1().size());
+
+			listeSizes.add(etudiant.getListeEtudiantsCompatiblesCreneau2().size());
+		});
 
 		System.out.println(Collections.max(listeSizes));
 
