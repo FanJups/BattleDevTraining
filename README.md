@@ -313,6 +313,15 @@ https://stackoverflow.com/questions/34406744/refactoring-a-nested-foreach-into-j
 
 https://www.quora.com/Is-it-possible-to-represent-multiple-nested-loops-using-Java-Lambda
 
+### polynomial time complexity java
+
+https://www.google.com/search?ei=tmmYXNDKLsWwgweJwowg&q=polynomial+time+complexity+java&oq=polynomial+time+complexity+ja&gs_l=psy-ab.1.0.33i21j33i160.25076.27659..29453...0.0..0.130.302.1j2......0....1..gws-wiz.......0i71j0i203j0i22i30.JNhVScacf6E
+
+https://www.geeksforgeeks.org/pseudo-polynomial-in-algorithms/
+
+https://www.baeldung.com/java-algorithm-complexity
+
+
 ## 6- Researches linked to Exercise " fonction mystérieuse bis " Battle dev nov 2018
 
 ### fonction itérée
