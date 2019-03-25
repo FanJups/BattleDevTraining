@@ -303,6 +303,16 @@ https://www.google.com/search?q=apply+methods+to+all+elements+of+a+list+stream+j
 
 https://stackoverflow.com/questions/7221833/how-can-i-call-a-method-on-each-element-of-a-list
 
+### how to nest two forEach stream java 8 with same collection
+
+https://www.google.com/search?ei=blqYXPzXIqadjLsPvICo0AU&q=how+to+nest+two+forEach+stream+java+8+with+same+collection&oq=how+to+nest+two+forEach+stream+java+8+with+same+collection&gs_l=psy-ab.3..33i160.8253.14018..14718...0.0..0.214.2420.12j8j1......0....1..gws-wiz.......0i71j35i302i39j33i21.cSWYscUcqUg
+
+https://stackoverflow.com/questions/25357043/java-8-streams-nested-foreach-with-different-collection
+
+https://stackoverflow.com/questions/34406744/refactoring-a-nested-foreach-into-java-8-stream?rq=1
+
+https://www.quora.com/Is-it-possible-to-represent-multiple-nested-loops-using-Java-Lambda
+
 ## 6- Researches linked to Exercise " fonction mystérieuse bis " Battle dev nov 2018
 
 ### fonction itérée
