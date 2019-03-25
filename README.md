@@ -297,6 +297,12 @@ https://stackoverflow.com/questions/22561614/java-8-streams-min-and-max-why-does
 
 https://stackoverflow.com/questions/2889777/difference-between-hashmap-linkedhashmap-and-treemap
 
+### apply methods to all elements of a list stream java
+
+https://www.google.com/search?q=apply+methods+to+all+elements+of+a+list+stream+java&oq=apply+methods+to+all+elements+of+a+list+stream+java&aqs=chrome..69i57.26606j0j7&sourceid=chrome&ie=UTF-8
+
+https://stackoverflow.com/questions/7221833/how-can-i-call-a-method-on-each-element-of-a-list
+
 ## 6- Researches linked to Exercise " fonction mystérieuse bis " Battle dev nov 2018
 
 ### fonction itérée
