@@ -10,9 +10,11 @@ import java.util.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
@@ -22,8 +24,10 @@ public static void main( String[] argv ) throws Exception {
 		String  line;
 		Scanner sc = new Scanner(System.in);
 		int N = Integer.parseInt(sc.nextLine());
-		ArrayList<Etudiant> listeEtudiants = new ArrayList<Etudiant>();
-		ArrayList<Integer> listeSizes = new ArrayList<Integer>();
+		final int finalN = N;
+		List<Etudiant> listeEtudiants = new ArrayList<Etudiant>();
+		
+		Set<Integer> listeSizes = new HashSet<Integer>();
 		
 		while(sc.hasNextLine()) {
 		    
@@ -31,115 +35,91 @@ public static void main( String[] argv ) throws Exception {
 			int creneau1 = Integer.parseInt(line.split(" ")[0]);
 			int creneau2 = Integer.parseInt(line.split(" ")[1]);
 			String identifiant = UUID.randomUUID().toString();
-			Etudiant elt = new Etudiant(creneau1,creneau2,identifiant);
+			Etudiant elt = new Etudiant(creneau1,creneau2,identifiant); 
 			listeEtudiants.add(elt);
 			
 		}
 
-		for(int j=0; j<listeEtudiants.size();j++)
-		{
-			int actuel = j;
+		
 
-			for(int k=0;k<listeEtudiants.size();k++)
-			{
-				if(k != actuel)
-				{
-					listeEtudiants.get(actuel).traitementListeCreneaux( listeEtudiants.get(k) );
-				}
-			}
-		}
+		listeEtudiants.stream().parallel().forEach(et1 -> {
 
-		for(int j=0; j<listeEtudiants.size();j++)
-		{
+			listeEtudiants.stream().parallel().forEach(et2 -> {
 
-			
-			listeSizes.add( listeEtudiants.get(j).getListeEtudiantsCompatiblesCreneau1().size() );
-			
-			listeSizes.add( listeEtudiants.get(j).getListeEtudiantsCompatiblesCreneau2().size() );
-		}
+				if (!et1.equals(et2))
+					et1.traitementListeCreneaux(et2);
+			});
+		});
 
-		//System.out.println(Collections.max(listeSizes));
+
+		listeEtudiants.stream().parallel().forEach(etudiant -> {
+
+			listeSizes.add(etudiant.getListeEtudiantsCompatiblesCreneau1().size());
+
+			listeSizes.add(etudiant.getListeEtudiantsCompatiblesCreneau2().size());
+		});
+
+		System.err.println(listeSizes);
 
 		if( Collections.max(listeSizes) == N )
 		{
-
 			LinkedHashMap<Etudiant, Integer> newList = new LinkedHashMap<>(); // liste size == N
 
-			for(int j=0; j<listeEtudiants.size();j++)
-			{
-				if(  listeEtudiants.get(j).getListeEtudiantsCompatiblesCreneau1().size() == N )
-				{
+			listeEtudiants.stream().parallel().forEach(etudiant -> {
 
-					newList.putAll( listeEtudiants.get(j).getListeEtudiantsCompatiblesCreneau1() );
+				if (etudiant.getListeEtudiantsCompatiblesCreneau1().size() == finalN) {
 
-					break;
+					newList.putAll(etudiant.getListeEtudiantsCompatiblesCreneau1());
 
-				}
-
-				if(  listeEtudiants.get(j).getListeEtudiantsCompatiblesCreneau2().size() == N )
-				{
-
-					newList.putAll( listeEtudiants.get(j).getListeEtudiantsCompatiblesCreneau2() );
-
-					break;
+					return;
 
 				}
 
-			}
+				if (etudiant.getListeEtudiantsCompatiblesCreneau2().size() == finalN) {
+
+					newList.putAll(etudiant.getListeEtudiantsCompatiblesCreneau2());
+
+					return;
+
+				}
+
+			});
 
 			LinkedHashMap<Etudiant, Integer> newList2 = new LinkedHashMap<>(); // Etudiant + type créneau
 
-			for (Map.Entry<Etudiant, Integer> entry : newList.entrySet()) {
+			newList.forEach((k, v) -> {
 
-				if( entry.getValue() == entry.getKey().getCreneau1() )
-				{
-					if(  newList2.containsKey( entry.getKey() ) == false )
-					{
-						newList2.put( entry.getKey(),1 );
-					}
-				}
+				if (v == k.getCreneau1())
+					if (!newList2.containsKey(k))
+						newList2.put(k, 1);
 
-				if( entry.getValue() == entry.getKey().getCreneau2() )
-				{
-					if(  newList2.containsKey( entry.getKey() ) == false )
-					{
-
-						newList2.put( entry.getKey(),2 );
-
-					}
-
-				}
-
-
-			}
+				if (v == k.getCreneau2())
+					if (!newList2.containsKey(k))
+						newList2.put(k, 2);
+			});
 
 			/// Ordre d'entrée
 
 			LinkedHashMap<Etudiant, Integer> finalList = new LinkedHashMap<>();
 
-			for(int j=0; j<listeEtudiants.size();j++)
-			{
+			listeEtudiants.stream().parallel().forEachOrdered(etudiant -> {
 
-				for (Map.Entry<Etudiant, Integer> entry : newList2.entrySet()) {
+				newList2.forEach((k, v) -> {
 
-					if( listeEtudiants.get(j).equals( entry.getKey() )  )
-					{
-						if(  finalList.containsKey( entry.getKey() ) == false )
-						{
-							finalList.put( entry.getKey(),entry.getValue() );
-						}
-					}
-				
-			    }
+					if (etudiant.equals(k))
+						if (!finalList.containsKey(k))
+							finalList.put(k, v);
+				});
+			});
 
-			} 
+			// Affichage
 
-			//Affichage 
+			finalList.forEach((k, v) -> {
+				System.out.println(v);
+			});
 
-			for (Map.Entry<Etudiant, Integer> entry : finalList.entrySet()) {
 
-				System.out.println(entry.getValue());
-			} 
+			
 
 		}else{
 
@@ -375,25 +355,7 @@ public static void main( String[] argv ) throws Exception {
 
 							List<Integer> biggerThan = new ArrayList<Integer>();
 
-							/*
 
-							for (Map.Entry<Etudiant, Integer> entry : list.entrySet()) {
-
-    							
-
-    							if(creneau > entry.getValue())
-    							{
-    								smallerThan.add(entry.getValue());
-    							}
-
-    							if(creneau < entry.getValue())
-    							{
-    								biggerThan.add(entry.getValue()); 
-    							}
-
-							}
-
-							*/
 
 							smallerThan = list.values().stream().parallel().filter(value -> value < creneau)
 								.collect(Collectors.toList());
