@@ -1,4 +1,7 @@
 # BattleDevTraining
+
+# season 13 (March 2019)
+
 I'm training for the battle dev 2019 https://battledev.blogdumoderateur.com/  &amp; https://www.isograd.com/FR/solutionconcours.php
 
 ## 1- Researches linked to Exercise " Vente aux enchères " Battle dev nov 2018
@@ -350,6 +353,8 @@ https://www.geeksforgeeks.org/java-math-max-method-examples/
 https://www.google.com/search?q=3+last+digits+of+a+number+java&oq=3+last+digits+of+a+number+java+&aqs=chrome..69i57j0l2.24187j0j7&sourceid=chrome&ie=UTF-8
 
 https://www.geeksforgeeks.org/find-first-last-digits-number/
+
+# season 14
 
 
 
