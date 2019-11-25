@@ -354,7 +354,9 @@ https://www.google.com/search?q=3+last+digits+of+a+number+java&oq=3+last+digits+
 
 https://www.geeksforgeeks.org/find-first-last-digits-number/
 
-# season 14
+# season 14 (November 2019)
+
+My training is based on what I've done before.
 
 
 
